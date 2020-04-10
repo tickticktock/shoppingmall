@@ -27,7 +27,6 @@ export default {
         this.$router.push(this.path)
         console.log(this.path)
         console.log(this.$route)
-        
       }
     }
   },

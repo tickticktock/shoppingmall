@@ -1,12 +1,15 @@
 <template>
   <div id="home">
-    Home
+    <NavBar><div slot="center">首页</div></NavBar>
   </div>
 </template>
 
 <script>
+import NavBar from '../../components/common/navbar/NavBar';
+
 export default {
-  name:"Home"
+  name:"Home",
+  components: {NavBar}
 }
 </script>
 
